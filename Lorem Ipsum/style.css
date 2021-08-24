@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-color: rgb(247, 247, 247);
+}
+
+.main-container{
+    padding: 0 5rem;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 890px;
+}
+
+.title{
+    margin-top: 2rem;
+    padding: 1rem 0;
+    text-transform: uppercase;
+    color: rgb(56, 56, 56);
+}
+
+.lorem-form label{
+    letter-spacing: 1px;
+}
+
+.lorem-form input{
+    width: 3rem;
+    height: 1.5rem;
+    padding-left: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.3rem;
+}
+
+.lorem-form button{
+    border: none;
+    background-color: darkcyan;
+    color: white;
+    height: 1.5rem;
+    width: 7rem;
+    border-radius: 0.3rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.lorem-text{
+    margin-top: 2rem;
+}
+
+.lorem-text .result{
+    margin: 1rem 0;
+    color: rgb(84, 84, 84);
+    text-align: justify;
+}
