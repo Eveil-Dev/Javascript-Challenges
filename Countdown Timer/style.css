@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open sans', sans-serif;
+}
+
+.main-container{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    padding: 0 3%;
+    margin: 5rem 0;
+}
+
+.img-container{
+    flex-basis: 50%;
+}
+
+.img-container img{
+    width: 100%;
+}
+
+.giveaway-container{
+    flex-basis: 50%;
+}
+
+.giveaway-container h2{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: cadetblue;
+}
+
+.giveaway{
+    margin: 1rem 0;
+    font-weight: 700;
+}
+
+.info{
+    color: gray;
+    margin: 2rem 0;
+}
+
+.deadline{
+    display: flex;
+    gap: 2rem;
+}
+
+.deadline-format{
+    width: 5rem;
+    height: 5rem;
+    background-color: cadetblue;
+    color: white;
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+
+.deadline-format h4{
+    font-size: 2rem;
+}
