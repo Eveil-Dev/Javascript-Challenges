@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-color: rgb(222, 234, 235);
+}
+
+.grocery-bud{
+    width: 90vw;
+    max-width: 35rem;
+    margin: 0 auto;
+    margin-top: 8rem;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 0.5rem;
+}
+
+.alert{
+    height: 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 0.25rem;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    font-size: 0.7rem;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+.grocery-form h3{
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: rgb(46, 71, 80);
+    letter-spacing: 1px;
+}
+
+.form-control{
+    display: flex;
+    justify-content: center;
+}
+
+#grocery{
+    padding: 0.25rem;
+    padding-left: 1rem;
+    border: none;
+    border-top-left-radius: 0.3rem;
+    border-bottom-left-radius: 0.3rem;
+    background-color: rgb(222, 234, 235);
+    flex: 1 0 auto;
+    outline: none;
+}
+
+.submit-btn {
+    background: rgb(98, 139, 143);
+    border: none;
+    flex: 0 0 5rem;
+    display: grid;
+    align-items: center;
+    padding: 0.25rem;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    border-top-right-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+    cursor: pointer;
+    font-size: 0.85rem;
+}
+
+.grocery-container{
+    margin-top: 1.5rem;
+}
+
+.grocery-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    padding: 0.25rem 1rem;
+    border-radius: 0.3rem;
+    text-transform: capitalize;
+}
+
+.edit-btn, .delete-btn{
+    background: transparent;
+    border: none;
+    margin: 0 0.15rem;
+    cursor: pointer;
+}
+
+.clear-btn{
+    width: 10rem;
+    height: 1.5rem;
+    margin: 0 auto;
+    margin-top: 1.25rem;
+    display: grid;
+    align-items: center;
+    background: transparent;
+    border: none;
+    color: rgb(253, 135, 159);
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    font-size: 0.85rem;
+    cursor: pointer;
+}
+
+/* JS CLASS */
+
+.grocery-container{
+    display: none;
+}
+
+.show-container{
+    display: block;
+}
+
+.alert-success{
+    background-color: aquamarine;
+}
+
+.alert-danger{
+    background-color: rgb(253, 135, 159);
+}
